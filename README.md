@@ -3,9 +3,7 @@
 * Download file
 
 ```
-wget https://github.com/anhbka/AnalyzePostfixLogs/archive/refs/heads/main.zip
-unzip main.zip
-cd main
+wget https://raw.githubusercontent.com/anhbka/AnalyzePostfixLogs/main/pflogsumm.pl
 cp -rp pflogsumm.pl /usr/local/bin/pflogsumm
 chown bin:bin /usr/local/bin/pflogsumm
 chmod 755 /usr/local/bin/pflogsumm
